@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name="generator" content="Hugo 0.146.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+    </head>
+    <body>
+        <script>
+            $('body').terminal({
+                hello: function(what) {
+                    this.echo('Hello, ' + what +
+                              '. Wellcome to this terminal.');
+                }
+            }, {
+                completion: true,
+                greetings: 'My First Web Terminal'
+            });
+            </script>
+    </body>
+</html>
